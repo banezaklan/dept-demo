@@ -8,6 +8,7 @@ $ npm install
 ```
 
 ## Run mock rest server
+Note: you should run it as a separate process from the Nuxt web app.
 ```bash
 $ npm run mocks
 ```
@@ -17,7 +18,7 @@ Check that the mock rest server is running:
 http://localhost:3100/api/cases
 ```
 
-## Run the web app
+## Run the Nuxt web app
 ```bash
 $ npm run dev
 ```
